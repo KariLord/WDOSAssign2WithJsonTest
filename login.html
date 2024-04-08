@@ -1,0 +1,42 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wildlife.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" ><img src="images/logo.1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">  
+                
+                <ul>
+                    <li><a href="wildlifeintro.html">INTRODUCTION TO SRILANKAN WILDLIFE</a></li>
+                    <li><a href="depofwildlife.html">DEPARTMENT OF WILDLIFE</a></li>
+                    <li><a href="slleopard.html">SRI LANKAN LEOPARD</a></li>
+                    <li><a href="animalsinsl.html">ANIMALS IN SRI LANKA</a></li>
+                    
+                    
+                </ul>
+            </div>
+            
+        </nav>
+        
+        <div class="text-box">
+            <h1 align="center">WILDLIFE IN SRI LANKA</h1>
+           
+        </div>
+    </section>
+    <form id="loginForm" x-data="logindata">
+        <h2 id="logintitle">User login</h2>
+        <input x-model="uname" type="text" id="username" placeholder="Username"><br>
+        <input x-model="pword" type="password" id="password" placeholder="Password"><br>
+        <button @click="login" type="button">Login</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

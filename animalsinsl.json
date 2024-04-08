@@ -1,0 +1,39 @@
+{
+    "introduction": {
+      "title": "Indigeonous Animals in Sri Lanka",
+      "description": "Sri Lanka, an island nation in South Asia, is home to a rich diversity of indigenous flora and fauna. The country's varied ecosystems, including rainforests, dry zones, and coastal areas, contribute to the existence of a wide range of animal species. Some places in which These animals can be seen is Yala National Park and Wilpattu National Park"
+    },
+    "animals": [
+        {
+            "name": "Asian Elephant",
+            "description": "The Sri Lankan elephant is a subspecies of the Asian elephant and is considered an iconic species in the country. These elephants can be found in various national parks and wildlife reserves.",
+            "image": "images/elephant3.1.jpg"
+        },
+        {
+            "name": "Sri Lankan Leopard",
+            "description": "The Sri Lankan leopard is a leopard subspecies native to Sri Lanka and is known for its distinctive dark golden or rufous coat. It is the island's top predator and can be found in protected areas.",
+            "image": "images/leopard1.1.jpg"
+        },
+        {
+            "name": "Sloth Bear",
+            "description": "The Sri Lankan sloth bear is a subspecies of the sloth bear found in the island's dry zone. These bears are known for their shaggy coat and are primarily nocturnal.",
+            "image": "images/slothbear1.1.jpg"
+        },
+        {
+            "name": "Purple-faced Langur",
+            "description": "Also known as the purple-faced leaf monkey, this primate species is endemic to Sri Lanka. It is characterized by its dark face and is often found in the country's rainforests.",
+            "image": "images/purplelangur1.1.jpg"
+        },
+        {
+            "name": "Toque Macaque",
+            "description": "Another primate endemic to Sri Lanka, the toque macaque is recognized by its tufted crown of hair. It inhabits various habitats, including forests, urban areas, and agricultural landscapes.",
+            "image": "images/macaque1.1.jpg"
+        },
+        {
+            "name": "Red Slender Loris",
+            "description": "This nocturnal primate is native to Sri Lanka and is known for its large, round eyes. Unfortunately, it is classified as a vulnerable species due to habitat loss and other threats.",
+            "image": "images/loris1.1.jpg"
+        }
+    ]
+}
+  

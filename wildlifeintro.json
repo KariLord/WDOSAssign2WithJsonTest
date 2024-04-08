@@ -1,0 +1,33 @@
+[
+    {
+        "Title": "Sinharaja Forest Reserve",
+        "paragraphs": [
+            "The Sinharaja Forest Reserve is a UNESCO World Heritage Site located in southwestern Sri Lanka. It is a tropical rainforest that spans an area of approximately 8,864 hectares. The reserve is known for its high biodiversity, featuring a wide variety of flora and fauna, including many endemic species. It serves as a vital habitat for numerous rare and endangered species of plants and animals. The Sinharaja Forest Reserve is recognized for its ecological importance and is a popular destination for eco-tourism and research."
+        ]
+    },
+    {
+        "Title": "Kalpitiya Beach",
+        "paragraphs": [
+            "Kalpitiya, situated on the northwestern coast of Sri Lanka, is renowned for its rich marine biodiversity. The coastal waters of Kalpitiya host a diverse array of ocean wildlife, making it a hotspot for marine enthusiasts. The region is particularly known for its resident and migratory cetaceans, including spinner dolphins and sperm whales. Additionally, Kalpitiya is a prime location for witnessing the annual migration of majestic blue whales. The vibrant coral reefs and underwater ecosystems in the area also contribute to the overall marine splendor, attracting snorkelers and divers eager to explore the underwater wonders of this coastal gem."
+        ]
+    },
+    {
+        "table": [
+            {
+                "Animal Name": "Leopard",
+                "Image": "images/leopard2.1.jpg",
+                "Description": "The Sri Lankan leopard (Panthera pardus kotiya) is an endangered subspecies of leopard endemic to the island of Sri Lanka. Recognized for its distinctive golden-yellow fur adorned with dark spots and rosettes, this medium to large-sized big cat adapts to diverse habitats, including rainforests and grasslands. With a nocturnal and solitary nature, it preys on various mammals."
+            },
+            {
+                "Animal Name": "Indian elephant",
+                "Image": "images/elephants2.1.jpg",
+                "Description": "The Indian elephant (Elephas maximus indicus) is a majestic and highly revered species native to the Indian subcontinent. Recognized for its large ears, grey-brown skin, and distinctive curved tusks, the Indian elephant is the largest land animal in Asia. Known for its intelligence and social behavior, these herbivores inhabit a range of habitats, from grasslands to forests."
+            },
+            {
+                "Animal Name": "Blue Whale",
+                "Image": "images/bluewhale1.1.jpg",
+                "Description": "The Sri Lankan blue whale (Balaenoptera musculus) is a magnificent marine mammal and the largest creature on Earth. With a distinct bluish-gray coloration and a streamlined body, these whales can reach lengths of over 80 feet. Found in the waters around Sri Lanka, particularly in the Indian Ocean, they are known for their impressive size and the resonant low-frequency vocalizations they use for communication."
+            }
+        ]
+    }
+]

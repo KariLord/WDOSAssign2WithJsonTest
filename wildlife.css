@@ -1,0 +1,163 @@
+.header{
+    min-height: 50vh;
+    width: 109%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8),rgba(4, 9, 30, 0.8)),url(images/elephants1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+.footer{
+    font-weight: lighter;
+}
+/* home page */
+.para{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: large;
+    
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 7%;
+}
+/* intro page */
+.location{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.table-container {
+    width: auto;
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    justify-content: center; /* Center the table horizontally */
+    
+}
+
+.table-info {
+    width: auto; /* Ensure the table fills its container */
+    /* Add any other table styles here */
+}
+
+.table-info td, .table-info th {
+    border: 1px solid black; /* Add border to separate table cells */
+    padding: 8px; /* Add padding for better spacing */
+}
+
+img {
+    max-width: auto; /* Ensure images don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline spacing */
+    margin: 0 auto; /* Center the image */
+}
+
+.table-info td:nth-child(3) {
+    width: 50%; /* Adjust the width as needed */
+}
+
+
+/* department of wildife conservation page */
+.dep-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    min-width: 100px; /* Ensure that columns can shrink to content size */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Add borders for better visualization */
+}
+ul {
+    margin-bottom: 40px; 
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px; 
+}
+.dep-intro{
+    padding: 5%;
+}
+/* animals in sri lanka page */
+.animal-info{
+    display: grid;
+}
+/* leopard page */
+.leopard-intro,.threats,.conservation{
+    padding: 5%;
+}
+/* yala page */
+.yala{
+    padding:7%;
+}
+#loginLink{
+    color:yellow;
+    
+}
+
+#loginForm{
+    width: 10%; /* Set the desired width of your section */
+    margin: 0 auto; /* Center horizontally */
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+
+
+@media(min-width: 700px)
+{
+    /* homepage */
+    .para{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* intropage */
+    .location{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .desc{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .image{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .iframe{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    .table{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .animal-info{
+        padding:7%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .animal-intro{
+        padding:5%;
+    }
+    
+}
